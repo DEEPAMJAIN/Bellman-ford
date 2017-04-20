@@ -1,15 +1,30 @@
 #include<iostream>
-#include<bits/stdc++.h>
-#include <ctime>
+#include<algorithm>
+#include<math.h>
+#include<cstring>
+#include<iomanip>
+#include<stdio.h>
+#include<limits>
+#include<map>
+#include<set>
+#include<list>
 #include<vector>
-
+#include <ctime>
+#include<stack>
+#define gcd __gcd
+#define pb(x) push_back(x)
+#define ll long long
+#define in(x) scanf("%d",&x)
+#define mod 1000000007LL
+#define sz(x) x.size()
+#define mst(x,a) memset(x,a,sizeof(x))
+#define pii pair<ll,ll>
 #define F first
 #define S second
 #define m_p make_pair
 #define all(v) (v.begin(),v.end())
 #define inf 1000000000
 using namespace std;
-#define pii pair<ll,ll>
 vector<pii> g;
 map<pii,int>weight;
 void solve(int src,int n)
